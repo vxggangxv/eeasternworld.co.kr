@@ -1,0 +1,67 @@
+@charset 'utf-8';
+
+body {font-family: "Nanum Gothic", sans-serif; letter-spacing: -0.5px; background: #000 url(../img/bg.jpg) no-repeat top center;}
+body, a {color: #666;}
+a {text-decoration: none;}
+
+.wrap {width: 1020px;}
+.wrap, .wrap-index, .header, .footer, .container {position: relative; margin: 0 auto;}
+.header, .footer, .container {width: 100%;}
+.header, .footer {background: #000;}
+
+.header {width: 100%; height: 70px;}
+.header .logo {display: inline-block; position: relative; top: 10px; left: 20px;}
+
+.main {background: #2d2d2d;}
+.main > div {float: left; height: 100%;}
+.main .d-left {width: 190px;}
+.main .d-left > * {background: #1e1e1e;}
+.main .d-left .d1 {text-align: center; padding: 30px 0;}
+.main .d-left nav {padding: 26px 0; border-top: 1px solid #313131;}
+.main .d-left nav > ul > li {padding: 11px 0;}
+.main .d-left nav > ul > li > a {display: block; text-align: center; color: #0b8787; font-weight: 700;}
+.main .d-left nav > ul > li > a:hover {color: #fff;}
+.main .d-left .d3 {padding: 30px 0 40px; border-top: 1px solid #313131; color: #7d7d7d; font-weight: 700; text-align: center;}
+.main .d-left .d3 .p1 {font-size: 15px; padding: 6px 11px 7px;; border: 1px solid #7d7d7d; display: inline-block; border-radius: 15px;}
+.main .d-left .d3 .p2 {font-size: 28px; letter-spacing: 0; line-height: 1.2; margin-top: 5px;}
+
+.main .d-center {width: 830px; padding: 30px 30px 40px 30px; box-sizing: border-box; min-height: 730px;}
+
+/* 메인페이지 제외 후 서브페이지 공통 Css */
+.main .d-center {margin: 0 auto; background: #fff;}
+.main .d-center .sub-top {height: 130px; background: url(../img/common/sub_visual.jpg) no-repeat right bottom; border-bottom: 1px solid #DCDCDC;}
+.main .d-center .sub-top h2 {font-size: 35px; color: #4f4f4f; font-weight: 700;}
+.main .d-center .sub-top h2 .s0 {font-family: "Noto Sans KR", "Malgun Gothic" , "Nanum Gothic", sans-serif; letter-spacing: 0;}
+.main .d-center .sub-top h2 .s-l {color: #d0d0d0; font-size: 16px; font-weight: 400; margin: 0 10px;}
+.main .d-center .sub-top h2 .s1 {position: relative; font-size: 16px; color: #919191;}
+.main .d-center .sub-top .p1 {font-size: 12px; color: #969799; font-weight: 700; margin-top: 10px; letter-spacing: 0;}
+
+.main .contents {margin: 30px auto 0;}
+
+.main .contents > li, .main .d-center .sub-cont2 > li {display: none;}
+.main .contents > li.on, .main .d-center .sub-cont2 > li.on {display: block;}
+.main .contents .introImg {display: block;}
+.main .contents .introImg.type2 {margin-bottom: 90px;}
+.main .d-center .sub-menu {}
+.main .d-center .sub-menu > li {float: left; margin-top: -9px;}
+.main .d-center .sub-menu > li a {color: #666; background: #ddd; margin-right: 2px; padding: 0 8px; font-size: 12px; display: block; line-height: 18px;}
+.main .d-center .sub-menu > li.on a {color: #fff; background: #737373;}
+
+.main .d-center .sub-menu2 {}
+.main .d-center .sub-menu2 > li {float: left;}
+.main .d-center .sub-menu2 > li a {color: #ccc; background: #737373; margin-right: 2px; padding: 4px 10px; font-size: 12px; display: block; line-height: 15px;}
+.main .d-center .sub-menu2 > li.on a {color: #fff; background: #0f8789;}
+.main .d-center .sub-menu2 > li.on a:before {content: "▼"; margin-right: 4px; font-size: 11px;}
+.main .d-center .sub-cont2 {margin-top: 20px;}
+.main .d-center .sub-cont2 > li .p1 {font-size: 12.5px; margin-bottom: 10px; letter-spacing: 0;}
+
+.footer {height: 90px; color: #666; font-size: 13px;}
+.footer > div {float: left;}
+.footer .d-left {height: 100%; text-align: center; width: 190px;}
+.footer .d-left > img {position: relative; top: 20px; }
+.footer .d-center .ul1 {margin-top: 12px;}
+.footer .d-center .ul1 > li {position: relative; float: left;}
+.footer .d-center .ul1 > li:before {position: relative; content: ""; display: inline-block; width: 1px; height: 12px; background: #666; vertical-align: middle; margin: 0 12px; top: -1px;}
+.footer .d-center .ul1 > li:first-child:before {display: none;}
+.footer .d-center .ul1 > li > a {display: inline-block; color: #666;}
+.footer .d-center address {margin-top: 15px; line-height: 1.4;}
